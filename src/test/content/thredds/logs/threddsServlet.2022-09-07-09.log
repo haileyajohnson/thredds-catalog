@@ -1,0 +1,14 @@
+2022-09-07T09:56:38.774 -0700 [     67346][        ] INFO  - net.openhft.chronicle.core.Jvm - Chronicle core loaded from file:/C:/Users/hajohns/dev/repos/tds/tds/build/serverBaseDir_tomcat85/webapps/thredds/WEB-INF/lib/chronicle-core-2.21ea28.jar
+2022-09-07T09:56:39.361 -0700 [     67933][        ] WARN  - net.openhft.chronicle.map.FileLockUtil - File locking is disabled or not supported on this platform (Windows 10). Make sure you are not running ChronicleMapBuilder::*recover* methods when other processes or threads have the mapped file open!
+2022-09-07T09:56:58.015 -0700 [     86587][       1] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/ HTTP/1.1"
+2022-09-07T09:56:58.135 -0700 [     86707][       1] INFO  - threddsServlet - Request Completed - 302 - -1 - 119
+2022-09-07T09:56:58.146 -0700 [     86718][       2] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/catalog/catalog.html HTTP/1.1"
+2022-09-07T09:57:02.560 -0700 [     91132][       2] INFO  - threddsServlet - Request Completed - 200 - -1 - 4414
+2022-09-07T09:57:31.063 -0700 [    119635][       3] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/catalog/catalog.html?dataset=testy HTTP/1.1"
+2022-09-07T09:57:31.170 -0700 [    119742][       3] INFO  - threddsServlet - Request Completed - 200 - -1 - 107
+2022-09-07T09:57:33.105 -0700 [    121677][       4] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/dodsC/localContent/testCFGridWriter.nc4.html HTTP/1.1"
+2022-09-07T09:57:37.077 -0700 [    125649][       5] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/tdsDap.css HTTP/1.1"
+2022-09-07T09:57:37.088 -0700 [    125660][       5] INFO  - threddsServlet - Request Completed - 200 - -1 - 11
+2022-09-07T09:57:37.114 -0700 [    125686][       4] INFO  - threddsServlet - Request Completed - 200 - -1 - 4009
+2022-09-07T09:57:40.128 -0700 [    128700][       6] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/dodsC/localContent/testCFGridWriter.nc4.dods?Temperature_surface%5B0:1:0%5D%5B0:1:0%5D%5B0:1:0%5D HTTP/1.1"
+2022-09-07T09:57:40.171 -0700 [    128743][       6] INFO  - threddsServlet - Request Completed - 200 - -1 - 42

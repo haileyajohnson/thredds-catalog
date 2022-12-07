@@ -1,0 +1,11 @@
+[2022-09-08T10:13:57.874-0700] INFO  thredds.featurecollection.CollectionUpdater: scheduleJob startup scan force=test for 'Aggregated_7_day_CBOFS_Fields_Forecast' at 2022-09-08T10:14:00.865-0700
+[2022-09-08T10:13:57.885-0700] INFO  thredds.featurecollection.CollectionUpdater: scheduleJob recurring scan for 'Aggregated_7_day_CBOFS_Fields_Forecast' cronExpr=0 0/15 * * * ? *
+[2022-09-08T10:23:23.880-0700] INFO  thredds.featurecollection.CollectionUpdater: scheduleJob startup scan force=test for 'Aggregated_7_day_CBOFS_Fields_Forecast' at 2022-09-08T10:23:26.868-0700
+[2022-09-08T10:23:23.891-0700] INFO  thredds.featurecollection.CollectionUpdater: scheduleJob recurring scan for 'Aggregated_7_day_CBOFS_Fields_Forecast' cronExpr=0 0/15 * * * ? *
+[2022-10-25T14:10:46.898-0700] INFO  thredds.featurecollection.CollectionUpdater: scheduleJob startup scan force=nocheck for 'NDFD-CONUS-5km.v5' at 2022-10-25T14:10:49.889-0700
+[2022-10-25T14:46:42.654-0700] INFO  thredds.featurecollection.CollectionUpdater: scheduleJob startup scan force=nocheck for 'NDFD-CONUS-5km.v5' at 2022-10-25T14:46:45.645-0700
+[2022-10-25T14:49:38.767-0700] INFO  thredds.featurecollection.CollectionUpdater: scheduleJob startup scan force=nocheck for 'gfs_2p5deg' at 2022-10-25T14:49:41.766-0700
+[2022-11-18T10:34:24.354-0700] INFO  thredds.featurecollection.CollectionUpdater: scheduleJob startup scan force=test for 'Metar_Station_Data' at 2022-11-18T10:34:27.341-0700
+[2022-11-18T10:34:24.371-0700] INFO  thredds.featurecollection.CollectionUpdater: scheduleJob recurring scan for 'Metar_Station_Data' cronExpr=0 0/15 * * * ? *
+[2022-11-18T10:49:58.357-0700] INFO  thredds.featurecollection.CollectionUpdater: scheduleJob startup scan force=test for 'Metar_Station_Data' at 2022-11-18T10:50:01.346-0700
+[2022-11-18T10:49:58.369-0700] INFO  thredds.featurecollection.CollectionUpdater: scheduleJob recurring scan for 'Metar_Station_Data' cronExpr=0 0/15 * * * ? *

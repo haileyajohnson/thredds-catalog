@@ -1,0 +1,208 @@
+2022-09-20T13:06:32.898 -0700 [     35840][        ] INFO  - net.openhft.chronicle.core.Jvm - Chronicle core loaded from file:/C:/Users/hajohns/dev/repos/tds/tds/build/serverBaseDir_tomcat85/webapps/thredds/WEB-INF/lib/chronicle-core-2.21ea28.jar
+2022-09-20T13:06:33.422 -0700 [     36364][        ] WARN  - net.openhft.chronicle.map.FileLockUtil - File locking is disabled or not supported on this platform (Windows 10). Make sure you are not running ChronicleMapBuilder::*recover* methods when other processes or threads have the mapped file open!
+2022-09-20T13:10:21.827 -0700 [    264769][       1] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/ HTTP/1.1"
+2022-09-20T13:10:21.955 -0700 [    264897][       1] INFO  - threddsServlet - Request Completed - 302 - -1 - 126
+2022-09-20T13:10:21.971 -0700 [    264913][       2] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/catalog/catalog.html HTTP/1.1"
+2022-09-20T13:10:23.929 -0700 [    266871][       2] INFO  - threddsServlet - Request Completed - 200 - -1 - 1958
+2022-09-20T13:10:25.679 -0700 [    268621][       3] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/catalog/catalog.html?dataset=ferret HTTP/1.1"
+2022-09-20T13:10:25.810 -0700 [    268752][       3] INFO  - threddsServlet - Request Completed - 200 - -1 - 132
+2022-09-20T13:10:27.417 -0700 [    270359][       4] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/dodsC/localContent/coads_avg.jnl.html HTTP/1.1"
+2022-09-20T13:10:27.792 -0700 [    270734][       4] ERROR - thredds.server.opendap.OpendapServlet - request= ReqState:
+  serverClassName:    'null'
+  dataSet:            'localContent/coads_avg.jnl'
+  requestSuffix:      'html'
+  CE:                 ''
+  compressOK:          true
+  InitParameters:
+
+java.io.IOException: java.io.IOException: Cant read C:/Users/hajohns/dev/repos/tds/tds/src/test/content/thredds/public/testdata/coads_avg.jnl: not a valid CDM file.
+	at ucar.nc2.NetcdfFiles.open(NetcdfFiles.java:279) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at ucar.nc2.dataset.NetcdfDatasets.openProtocolOrFile(NetcdfDatasets.java:455) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at ucar.nc2.dataset.NetcdfDatasets.openFile(NetcdfDatasets.java:347) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at ucar.nc2.dataset.NetcdfDatasets$StandardFileFactory.open(NetcdfDatasets.java:38) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at ucar.nc2.dataset.NetcdfDatasets$StandardFileFactory.open(NetcdfDatasets.java:35) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at ucar.nc2.util.cache.FileCache.acquire(FileCache.java:267) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at ucar.nc2.dataset.NetcdfDatasets.openOrAcquireFile(NetcdfDatasets.java:409) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at ucar.nc2.dataset.NetcdfDatasets.acquireFile(NetcdfDatasets.java:386) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at ucar.nc2.dataset.NetcdfDatasets.acquireFile(NetcdfDatasets.java:361) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at thredds.core.DatasetManager.openNetcdfFile(DatasetManager.java:250) ~[classes/:5.5-SNAPSHOT]
+	at thredds.core.TdsRequestedDataset.openAsNetcdfFile(TdsRequestedDataset.java:166) ~[classes/:5.5-SNAPSHOT]
+	at thredds.core.TdsRequestedDataset.getNetcdfFile(TdsRequestedDataset.java:89) ~[classes/:5.5-SNAPSHOT]
+	at thredds.server.opendap.OpendapServlet.getDataset(OpendapServlet.java:946) ~[classes/:5.5-SNAPSHOT]
+	at thredds.server.opendap.OpendapServlet.doGetHTML(OpendapServlet.java:605) ~[classes/:5.5-SNAPSHOT]
+	at thredds.server.opendap.OpendapServlet.doGet(OpendapServlet.java:188) [classes/:5.5-SNAPSHOT]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) [spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) [spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) [spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) [spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) [spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) [spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) [spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.3.20.jar:5.3.20]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.20.jar:5.3.20]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.49.jar:8.5.49]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327) [spring-security-web-5.6.5.jar:5.6.5]
+	at thredds.servlet.filter.RequestBracketingLogMessageFilter.doFilter(RequestBracketingLogMessageFilter.java:50) [classes/:5.5-SNAPSHOT]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.5.jar:5.6.5]
+	at thredds.servlet.filter.RequestQueryFilter.doFilter(RequestQueryFilter.java:90) [classes/:5.5-SNAPSHOT]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.5.jar:5.6.5]
+	at thredds.servlet.filter.HttpHeadFilter.doFilter(HttpHeadFilter.java:47) [classes/:5.5-SNAPSHOT]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.5.jar:5.6.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) [spring-security-web-5.6.5.jar:5.6.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) [spring-security-web-5.6.5.jar:5.6.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) [spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) [spring-web-5.3.20.jar:5.3.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.2022-09-20T13:14:48.515 -0700 [     66686][        ] INFO  - net.openhft.chronicle.core.Jvm - Chronicle core loaded from file:/C:/Users/hajohns/dev/repos/tds/tds/build/serverBaseDir_tomcat85/webapps/thredds/WEB-INF/lib/chronicle-core-2.21ea28.jar
+2022-09-20T13:14:48.992 -0700 [     67163][        ] WARN  - net.openhft.chronicle.map.FileLockUtil - File locking is disabled or not supported on this platform (Windows 10). Make sure you are not running ChronicleMapBuilder::*recover* methods when other processes or threads have the mapped file open!
+2022-09-20T13:14:55.163 -0700 [     73334][       1] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/catalog/catalog.html?dataset=ferret HTTP/1.1"
+2022-09-20T13:14:56.462 -0700 [     74633][       1] INFO  - threddsServlet - Request Completed - 200 - -1 - 1295
+2022-09-20T13:15:00.206 -0700 [     78377][       2] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/dodsC/localContent/coads_avg.jnl.html HTTP/1.1"
+2022-09-20T13:15:00.547 -0700 [     78718][       2] ERROR - thredds.server.opendap.OpendapServlet - request= ReqState:
+  serverClassName:    'null'
+  dataSet:            'localContent/coads_avg.jnl'
+  requestSuffix:      'html'
+  CE:                 ''
+  compressOK:          true
+  InitParameters:
+
+java.io.IOException: java.io.IOException: Cant read C:/Users/hajohns/dev/repos/tds/tds/src/test/content/thredds/public/testdata/coads_avg.jnl: not a valid CDM file.
+	at ucar.nc2.NetcdfFiles.open(NetcdfFiles.java:279) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at ucar.nc2.dataset.NetcdfDatasets.openProtocolOrFile(NetcdfDatasets.java:455) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at ucar.nc2.dataset.NetcdfDatasets.openFile(NetcdfDatasets.java:347) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at ucar.nc2.dataset.NetcdfDatasets$StandardFileFactory.open(NetcdfDatasets.java:38) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at ucar.nc2.dataset.NetcdfDatasets$StandardFileFactory.open(NetcdfDatasets.java:35) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at ucar.nc2.util.cache.FileCache.acquire(FileCache.java:267) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at ucar.nc2.dataset.NetcdfDatasets.openOrAcquireFile(NetcdfDatasets.java:409) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at ucar.nc2.dataset.NetcdfDatasets.acquireFile(NetcdfDatasets.java:386) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at ucar.nc2.dataset.NetcdfDatasets.acquireFile(NetcdfDatasets.java:361) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at thredds.core.DatasetManager.openNetcdfFile(DatasetManager.java:250) ~[classes/:5.5-SNAPSHOT]
+	at thredds.core.TdsRequestedDataset.openAsNetcdfFile(TdsRequestedDataset.java:166) ~[classes/:5.5-SNAPSHOT]
+	at thredds.core.TdsRequestedDataset.getNetcdfFile(TdsRequestedDataset.java:89) ~[classes/:5.5-SNAPSHOT]
+	at thredds.server.opendap.OpendapServlet.getDataset(OpendapServlet.java:946) ~[classes/:5.5-SNAPSHOT]
+	at thredds.server.opendap.OpendapServlet.doGetHTML(OpendapServlet.java:605) ~[classes/:5.5-SNAPSHOT]
+	at thredds.server.opendap.OpendapServlet.doGet(OpendapServlet.java:188) [classes/:5.5-SNAPSHOT]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) [spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) [spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) [spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) [spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) [spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) [spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) [spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.3.20.jar:5.3.20]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.20.jar:5.3.20]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.49.jar:8.5.49]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327) [spring-security-web-5.6.5.jar:5.6.5]
+	at thredds.servlet.filter.RequestBracketingLogMessageFilter.doFilter(RequestBracketingLogMessageFilter.java:50) [classes/:5.5-SNAPSHOT]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.5.jar:5.6.5]
+	at thredds.servlet.filter.RequestQueryFilter.doFilter(RequestQueryFilter.java:90) [classes/:5.5-SNAPSHOT]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.5.jar:5.6.5]
+	at thredds.servlet.filter.HttpHeadFilter.doFilter(HttpHeadFilter.java:47) [classes/:5.5-SNAPSHOT]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.5.jar:5.6.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) [spring-security-web-5.6.5.jar:5.6.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) [spring-security-web-5.6.5.jar:5.6.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) [spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) [spring-web-5.3.20.jar:5.3.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.17.1.jar:2.17.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:528) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:609) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:810) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1506) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.IOException: Cant read C:/Users/hajohns/dev/repos/tds/tds/src/test/content/thredds/public/testdata/coads_avg.jnl: not a valid CDM file.
+	at ucar.nc2.NetcdfFiles.open(NetcdfFiles.java:739) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at ucar.nc2.NetcdfFiles.open(NetcdfFiles.java:276) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	... 68 more
+2022-09-20T13:15:00.563 -0700 [     78734][       2] INFO  - threddsServlet - Request Completed - 500 - -1 - 357
+2022-09-20T13:17:50.611 -0700 [    248782][       3] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/dodsC/localContent/coads_avg.jnl.html HTTP/1.1"
+2022-09-20T13:31:28.970 -0700 [   1067141][       3] ERROR - thredds.server.opendap.OpendapServlet - request= ReqState:
+  serverClassName:    'null'
+  dataSet:            'localContent/coads_avg.jnl'
+  requestSuffix:      'html'
+  CE:                 ''
+  compressOK:          true
+  InitParameters:
+
+java.io.IOException: java.io.IOException: Cant read C:/Users/hajohns/dev/repos/tds/tds/src/test/content/thredds/public/testdata/coads_avg.jnl: not a valid CDM file.
+	at ucar.nc2.NetcdfFiles.open(NetcdfFiles.java:279) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at ucar.nc2.dataset.NetcdfDatasets.openProtocolOrFile(NetcdfDatasets.java:455) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at ucar.nc2.dataset.NetcdfDatasets.openFile(NetcdfDatasets.java:347) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at ucar.nc2.dataset.NetcdfDatasets$StandardFileFactory.open(NetcdfDatasets.java:38) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at ucar.nc2.dataset.NetcdfDatasets$StandardFileFactory.open(NetcdfDatasets.java:35) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at ucar.nc2.util.cache.FileCache.acquire(FileCache.java:267) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at ucar.nc2.dataset.NetcdfDatasets.openOrAcquireFile(NetcdfDatasets.java:409) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at ucar.nc2.dataset.NetcdfDatasets.acquireFile(NetcdfDatasets.java:386) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at ucar.nc2.dataset.NetcdfDatasets.acquireFile(NetcdfDatasets.java:361) ~[cdm-core-5.5.4-SNAPSHOT.jar:5.5.4-SNAPSHOT]
+	at thredds.core.DatasetManager.openNetcdfFile(DatasetManager.java:250) ~[classes/:5.5-SNAPSHOT]
+	at thredds.core.TdsRequestedDataset.openAsNetcdfFile(TdsRequestedDataset.java:166) ~[classes/:5.5-SNAPSHOT]
+	at thredds.core.TdsRequestedDataset.getNetcdfFile(TdsRequestedDataset.java:89) ~[classes/:5.5-SNAPSHOT]
+	at thredds.server.opendap.OpendapServlet.getDataset(OpendapServlet.java:946) ~[classes/:5.5-SNAPSHOT]
+	at thredds.server.opendap.OpendapServlet.doGetHTML(OpendapServlet.java:605) ~[classes/:5.5-SNAPSHOT]
+	at thredds.server.opendap.OpendapServlet.doGet(OpendapServlet.java:188) [classes/:5.5-SNAPSHOT]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) [spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) [spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) [spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) [spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) [spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) [spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) [spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.3.20.jar:5.3.20]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.20.jar:5.3.20]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.49.jar:8.5.49]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.49.jar:8.5.49]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327) [spring-security-web-5.6.5.jar:5.6.5]
+	at thredds.servlet.filter.RequestBracketingLogMessageFilter.doFilter(RequestBracketingLogMessageFilter.java:50) [classes/:5.5-SNAPSHOT]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.5.jar:5.6.5]
+	at thredds.servlet.filter.RequestQueryFilter.doFilter(RequestQueryFilter.java:90) [classes/:5.5-SNAPSHOT]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.5.jar:5.6.5]
+	at thredds.s

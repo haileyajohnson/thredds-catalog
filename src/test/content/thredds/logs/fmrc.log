@@ -1,0 +1,170 @@
+[2022-08-09T11:08:57.450-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-08-15T15:21:58.483-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-08-15T16:08:06.070-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-01T12:14:21.293-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-02T09:32:50.448-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-02T09:38:13.155-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-02T09:47:25.388-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-02T09:58:19.548-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-02T11:04:07.265-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-02T11:13:04.426-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-02T11:39:27.015-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-02T12:02:41.642-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-02T12:04:50.349-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-07T09:56:38.653-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-08T10:13:38.731-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-08T10:13:57.646-0700] INFO  thredds.featurecollection.InvDatasetFeatureCollection: FeatureCollection added = FeatureCollectionConfig name ='Aggregated 7 day CBOFS Fields Forecast' collectionName='Aggregated_7_day_CBOFS_Fields_Forecast' type='FMRC'
+  spec='C:/Users/hajohns/dev/repos/tds/tds/src/test/content/thredds/public/testdata/.*nos.cbofs.fields.*\.nc'
+  dateFormatMark ='#nos.cbofs.fields.f#....yyyyMMdd'.t'HH'
+  olderThan =5 min
+  timePartition =directory
+  updateConfig =UpdateConfig{userDefined=true, recheckAfter='null', rescan='0 0/15 * * * ? *', triggerOk=false, updateType=test}
+  tdmConfig =UpdateConfig{userDefined=false, recheckAfter='null', rescan='null', triggerOk=true, updateType=test}
+  ProtoConfig{choice=Penultimate, change='null', param='null', outerNcml='null', cacheAll=true}
+  hasInnerNcml =true
+  fmrcConfig =FmrcConfig: regularize=true datasetTypes=[Best]
+
+[2022-09-08T10:13:57.909-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle:  cache out of date 1659025410 < 1662656917 for C:/Users/hajohns/dev/repos/tds/tds/src/test/content/thredds/public/testdata/nos.cbofs.fields.f033.20220728.t06z.nc. Removing cache entry.
+[2022-09-08T10:13:57.914-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle:  cache out of date 1659025401 < 1662656917 for C:/Users/hajohns/dev/repos/tds/tds/src/test/content/thredds/public/testdata/nos.cbofs.fields.f033.20220728.t12z.nc. Removing cache entry.
+[2022-09-08T10:16:08.794-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-08T10:16:34.426-0700] INFO  thredds.featurecollection.InvDatasetFeatureCollection: FeatureCollection added = FeatureCollectionConfig name ='Aggregated 7 day CBOFS Fields Forecast' collectionName='Aggregated_7_day_CBOFS_Fields_Forecast' type='FMRC'
+  spec='C:/Users/hajohns/dev/repos/tds/tds/src/test/content/thredds/public/wrongPath/.*nos.cbofs.fields.*\.nc'
+  dateFormatMark ='#nos.cbofs.fields.f#....yyyyMMdd'.t'HH'
+  olderThan =5 min
+  timePartition =directory
+  updateConfig =UpdateConfig{userDefined=true, recheckAfter='null', rescan='0 0/15 * * * ? *', triggerOk=false, updateType=test}
+  tdmConfig =UpdateConfig{userDefined=false, recheckAfter='null', rescan='null', triggerOk=true, updateType=test}
+  ProtoConfig{choice=Penultimate, change='null', param='null', outerNcml='null', cacheAll=true}
+  hasInnerNcml =true
+  fmrcConfig =FmrcConfig: regularize=true datasetTypes=[Best]
+
+[2022-09-08T10:16:34.450-0700] WARN  thredds.featurecollection.InvDatasetFeatureCollection: MFileCollectionManager parse error =  Directory C:/Users/hajohns/dev/repos/tds/tds/src/test/content/thredds/public/wrongPath does not exist 
+ 
+[2022-09-08T10:16:34.457-0700] ERROR thredds.featurecollection.InvDatasetFeatureCollection: Aggregated_7_day_CBOFS_Fields_Forecast: Invalid collection= MCollection{name='C:/Users/hajohns/dev/repos/tds/tds/src/test/content/thredds/public/wrongPath', dirName='C:/Users/hajohns/dev/repos/tds/tds/src/test/content/thredds/public/wrongPath', wantSubdirs=false, filter=thredds.inventory.filter.CompositeMFileFilter@37deafc1}
+[2022-09-08T10:16:34.458-0700] WARN  thredds.featurecollection.InvDatasetFeatureCollection: MFileCollectionManager: No files found for Aggregated_7_day_CBOFS_Fields_Forecast
+[2022-09-08T10:16:34.460-0700] WARN  thredds.featurecollection.InvDatasetFcFmrc: The FMRC Aggregated_7_day_CBOFS_Fields_Forecast defined in /thredds/catalog/cbofs_agg.xml cannot find any files matching the spec C:/Users/hajohns/dev/repos/tds/tds/src/test/content/thredds/public/wrongPath/.*nos.cbofs.fields.*\.nc.
+[2022-09-08T10:22:23.684-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-08T10:23:23.628-0700] INFO  thredds.featurecollection.InvDatasetFeatureCollection: FeatureCollection added = FeatureCollectionConfig name ='Aggregated 7 day CBOFS Fields Forecast' collectionName='Aggregated_7_day_CBOFS_Fields_Forecast' type='FMRC'
+  spec='C:/Users/hajohns/dev/repos/tds/tds/src/test/content/thredds/public/testdata/.*nos.cbofs.fields.*\.nc'
+  dateFormatMark ='#nos.cbofs.fields.f#....yyyyMMdd'.t'HH'
+  olderThan =5 min
+  timePartition =directory
+  updateConfig =UpdateConfig{userDefined=true, recheckAfter='null', rescan='0 0/15 * * * ? *', triggerOk=false, updateType=test}
+  tdmConfig =UpdateConfig{userDefined=false, recheckAfter='null', rescan='null', triggerOk=true, updateType=test}
+  ProtoConfig{choice=Penultimate, change='null', param='null', outerNcml='null', cacheAll=true}
+  hasInnerNcml =true
+  fmrcConfig =FmrcConfig: regularize=true datasetTypes=[Best]
+
+[2022-09-09T11:17:40.430-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-09T11:26:38.202-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-09T12:39:09.586-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-09T12:47:09.023-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-09T12:51:55.283-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-20T13:06:32.789-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-20T13:14:48.423-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-20T15:24:42.486-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-21T14:45:01.463-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-22T14:03:52.466-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-22T14:16:12.390-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-22T14:32:58.993-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-22T14:58:08.822-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-22T15:00:42.791-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-22T15:32:33.039-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-09-23T12:13:47.206-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-04T13:46:05.626-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-04T13:49:55.068-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-04T14:32:25.859-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-04T15:06:49.777-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-04T15:23:18.201-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-04T15:30:23.277-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-06T15:05:37.537-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-06T15:08:16.441-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-06T15:15:04.717-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-06T15:18:04.994-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-11T14:56:16.275-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-25T13:57:38.205-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-25T14:10:46.764-0700] INFO  thredds.featurecollection.InvDatasetFeatureCollection: FeatureCollection added = FeatureCollectionConfig name ='NDFD-CONUS-5km.v5' collectionName='NDFD-CONUS-5km.v5' type='GRIB2'
+  spec='C:/Users/hajohns/dev/repos/thredds-test-data/local/thredds-test-data/cdmUnitTest/datasets/NDFD-CONUS-5km/.*grib2$'
+  timePartition =file
+  updateConfig =UpdateConfig{userDefined=false, recheckAfter='null', rescan='null', triggerOk=true, updateType=nocheck}
+  tdmConfig =UpdateConfig{userDefined=false, recheckAfter='null', rescan='null', triggerOk=true, updateType=test}
+  ProtoConfig{choice=Penultimate, change='null', param='null', outerNcml='null', cacheAll=true}
+  hasInnerNcml =false
+  GribConfig{datasets=[TwoD, Files, Latest], gdsHash={-197088379=-198041691}, useGenType=true, useTableVersion=false, intvMerge=true, useCenter=false}
+
+[2022-10-25T14:10:46.917-0700] INFO  thredds.featurecollection.InvDatasetFcGrib: updateGribCollection NDFD-CONUS-5km.v5 changed false took 16 msecs
+[2022-10-25T14:10:49.895-0700] INFO  thredds.featurecollection.InvDatasetFcGrib: updateGribCollection NDFD-CONUS-5km.v5 changed false took 0 msecs
+[2022-10-25T14:22:41.694-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-25T14:30:36.221-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-25T14:44:13.488-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-25T14:46:42.510-0700] INFO  thredds.featurecollection.InvDatasetFeatureCollection: FeatureCollection added = FeatureCollectionConfig name ='NDFD-CONUS-5km.v5' collectionName='NDFD-CONUS-5km.v5' type='GRIB2'
+  spec='C:/Users/hajohns/dev/repos/thredds-test-data/local/thredds-test-data/cdmUnitTest/datasets/NDFD-CONUS-5km/.*grib2$'
+  timePartition =file
+  updateConfig =UpdateConfig{userDefined=false, recheckAfter='null', rescan='null', triggerOk=true, updateType=nocheck}
+  tdmConfig =UpdateConfig{userDefined=false, recheckAfter='null', rescan='null', triggerOk=true, updateType=test}
+  ProtoConfig{choice=Penultimate, change='null', param='null', outerNcml='null', cacheAll=true}
+  hasInnerNcml =false
+  GribConfig{datasets=[TwoD, Files, Latest], gdsHash={-197088379=-198041691}, useGenType=true, useTableVersion=false, intvMerge=true, useCenter=false}
+
+[2022-10-25T14:46:42.704-0700] INFO  thredds.featurecollection.InvDatasetFcGrib: updateGribCollection NDFD-CONUS-5km.v5 changed false took 28 msecs
+[2022-10-25T14:46:45.665-0700] INFO  thredds.featurecollection.InvDatasetFcGrib: updateGribCollection NDFD-CONUS-5km.v5 changed false took 8 msecs
+[2022-10-25T14:49:38.766-0700] INFO  thredds.featurecollection.InvDatasetFeatureCollection: FeatureCollection added = FeatureCollectionConfig name ='gfs_2p5deg' collectionName='gfs_2p5deg' type='GRIB2'
+  spec='C:/Users/hajohns/dev/repos/thredds-test-data/local/thredds-test-data/cdmUnitTest/gribCollections/gfs_2p5deg/.*grib2$'
+  timePartition =file
+  updateConfig =UpdateConfig{userDefined=false, recheckAfter='null', rescan='null', triggerOk=true, updateType=nocheck}
+  tdmConfig =UpdateConfig{userDefined=false, recheckAfter='null', rescan='null', triggerOk=true, updateType=test}
+  ProtoConfig{choice=Penultimate, change='null', param='null', outerNcml='null', cacheAll=true}
+  hasInnerNcml =false
+  GribConfig{datasets=[TwoD, Best, Files, Latest], useGenType=false, useTableVersion=false, intvMerge=true, useCenter=false}
+
+[2022-10-25T14:49:38.778-0700] INFO  thredds.featurecollection.InvDatasetFcGrib: updateGribCollection gfs_2p5deg changed false took 11 msecs
+[2022-10-25T14:49:41.776-0700] INFO  thredds.featurecollection.InvDatasetFcGrib: updateGribCollection gfs_2p5deg changed false took 0 msecs
+[2022-10-25T15:08:06.196-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-25T15:34:22.910-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-25T15:39:06.598-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-25T15:46:27.181-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-26T09:50:43.369-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-26T09:53:34.736-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-26T10:03:48.693-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-26T10:13:47.142-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-26T12:56:34.285-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-26T13:03:39.829-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-26T15:02:06.707-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-27T10:29:15.483-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-27T10:43:15.301-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-27T10:44:39.519-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-27T10:46:15.594-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-27T10:52:10.255-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-27T10:54:24.878-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-27T11:10:59.180-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-27T11:19:49.290-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-27T14:37:41.004-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-27T14:41:39.767-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-31T14:00:09.433-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-31T14:02:11.331-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-31T14:19:29.834-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-10-31T14:26:39.252-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-11-01T09:18:30.050-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-11-04T15:29:27.770-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-11-18T10:30:09.886-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-11-18T10:34:06.815-0700] INFO  thredds.featurecollection.InvDatasetFeatureCollection: FeatureCollection added = FeatureCollectionConfig name ='Metar Station Data' collectionName='Metar_Station_Data' type='Station'
+  spec='C:/Users/hajohns/dev/repos/thredds-test-data/local/thredds-test-data/cdmUnitTest/ft/station/ldm-metar/Surface_METAR_#yyyyMMdd_HHmm#.nc$'
+  timePartition =directory
+  updateConfig =UpdateConfig{userDefined=true, recheckAfter='null', rescan='0 0/15 * * * ? *', triggerOk=true, updateType=test}
+  tdmConfig =UpdateConfig{userDefined=false, recheckAfter='null', rescan='null', triggerOk=true, updateType=test}
+  ProtoConfig{choice=Penultimate, change='null', param='null', outerNcml='null', cacheAll=true}
+  hasInnerNcml =false
+  pointConfig =PointConfig: datasetTypes=[cdmrFeature, Files]
+
+[2022-11-18T10:39:30.943-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-11-18T10:47:31.506-0700] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat
+[2022-11-18T10:49:57.567-0700] INFO  thredds.featurecollection.InvDatasetFeatureCollection: FeatureCollection added = FeatureCollectionConfig name ='Metar Station Data' collectionName='Metar_Station_Data' type='Station'
+  spec='C:/Users/hajohns/dev/repos/thredds-test-data/local/thredds-test-data/cdmUnitTest/ft/station/ldm-metar/Surface_METAR_#yyyyMMdd_HHmm#.nc$'
+  timePartition =directory
+  updateConfig =UpdateConfig{userDefined=true, recheckAfter='null', rescan='0 0/15 * * * ? *', triggerOk=true, updateType=test}
+  tdmConfig =UpdateConfig{userDefined=false, recheckAfter='null', rescan='null', triggerOk=true, updateType=test}
+  ProtoConfig{choice=Penultimate, change='null', param='null', outerNcml='null', cacheAll=true}
+  hasInnerNcml =false
+  pointConfig =PointConfig: datasetTypes=[cdmrFeature, Files]
+
+[2022-11-29T14:48:20.784-0800] INFO  thredds.featurecollection.cache.GridInventoryCacheChronicle: Previous grid inventory cache found. Using C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\collection\GridDatasetInv.dat

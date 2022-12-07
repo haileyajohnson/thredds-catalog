@@ -1,0 +1,53 @@
+2022-11-29T14:48:13.098-0800 [     26175][        ] INFO  org.springframework.web.context.ContextLoader: Root WebApplicationContext: initialization started
+2022-11-29T14:48:14.255-0800 [     27332][        ] INFO  org.springframework.security.core.SpringSecurityCoreVersion: You are running with Spring Security Core 5.7.5
+2022-11-29T14:48:14.262-0800 [     27339][        ] INFO  org.springframework.security.config.SecurityNamespaceHandler: Spring Security 'config' module version is 5.7.5
+2022-11-29T14:48:16.102-0800 [     29179][        ] INFO  org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 6.1.5.Final
+2022-11-29T14:48:17.979-0800 [     31056][        ] WARN  serverStartup: TdsContext.init(): "tds.upload.dir" property isn't defined.
+2022-11-29T14:48:17.981-0800 [     31058][        ] WARN  serverStartup: TdsContext.init(): "tds.upload.form" property isn't defined.
+2022-11-29T14:48:17.982-0800 [     31059][        ] WARN  serverStartup: TdsContext.init(): "tds.download.dir" property isn't defined.
+2022-11-29T14:48:17.982-0800 [     31059][        ] WARN  serverStartup: TdsContext.init(): "tds.download.form" property isn't defined.
+2022-11-29T14:48:17.983-0800 [     31060][        ] INFO  serverStartup: TdsContext version= 5.5-SNAPSHOT - 2022-11-29T14:46:48-0800
+2022-11-29T14:48:17.983-0800 [     31060][        ] INFO  serverStartup: TdsContext initialized logging in C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\logs
+2022-11-29T14:48:18.342-0800 [     31419][        ] INFO  serverStartup: DataRootManager:2 aliases set 
+2022-11-29T14:48:18.484-0800 [     31561][        ] INFO  serverStartup: thredds.server.reify.DownloadController initialization
+2022-11-29T14:48:18.492-0800 [     31569][        ] INFO  serverStartup: thredds.server.reify.UploadController initialization
+2022-11-29T14:48:18.787-0800 [     31864][        ] INFO  org.springframework.security.web.DefaultSecurityFilterChain: Will secure Ant [pattern='/dap4/**'] with [thredds.servlet.filter.HttpHeadFilter@489e32a2, thredds.servlet.filter.RequestQueryFilter@7ae4f91b, thredds.servlet.filter.RequestBracketingLogMessageFilter@2fbb65a9]
+2022-11-29T14:48:18.788-0800 [     31865][        ] INFO  org.springframework.security.web.DefaultSecurityFilterChain: Will secure Ant [pattern='/dodsC/**'] with [thredds.servlet.filter.HttpHeadFilter@489e32a2, thredds.servlet.filter.RequestQueryFilter@7ae4f91b, thredds.servlet.filter.RequestBracketingLogMessageFilter@2fbb65a9]
+2022-11-29T14:48:18.789-0800 [     31866][        ] INFO  org.springframework.security.web.DefaultSecurityFilterChain: Will secure Ant [pattern='/wms/**'] with [thredds.servlet.filter.HttpHeadFilter@489e32a2, thredds.servlet.filter.RequestQueryFilter@7ae4f91b, thredds.servlet.filter.RequestBracketingLogMessageFilter@2fbb65a9]
+2022-11-29T14:48:18.790-0800 [     31867][        ] INFO  org.springframework.security.web.DefaultSecurityFilterChain: Will secure Ant [pattern='/fileServer/**'] with [thredds.servlet.filter.RequestQueryFilter@5a3aa65b, thredds.servlet.filter.RequestBracketingLogMessageFilter@2fbb65a9]
+2022-11-29T14:48:18.791-0800 [     31868][        ] INFO  org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [thredds.servlet.filter.HttpHeadFilter@489e32a2, thredds.servlet.filter.RequestQueryFilter@5a3aa65b, thredds.servlet.filter.RequestBracketingLogMessageFilter@2fbb65a9]
+2022-11-29T14:48:18.840-0800 [     31917][        ] INFO  serverStartup: TdsInit: org.springframework.context.event.ContextRefreshedEvent[source=Root WebApplicationContext, started on Tue Nov 29 14:48:13 PST 2022]
+2022-11-29T14:48:18.841-0800 [     31918][        ] INFO  serverStartup: TdsInit: getContentRootPathAbsolute= C:/Users/hajohns/dev/repos/tds/tds/src/test/content/
+2022-11-29T14:48:18.972-0800 [     32049][        ] INFO  serverStartup: ThreddsConfigReader reading xml file = C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\threddsConfig.xml
+2022-11-29T14:48:20.374-0800 [     33451][        ] INFO  serverStartup: TdsInit: catalogWriting.useBytesForDataSize= false
+2022-11-29T14:48:20.547-0800 [     33624][        ] INFO  serverStartup: Nc4Iosp: NetCDF-4 C library loaded (jna_path='C:/Users/hajohns/dev/local/netCDF_4.7.4/bin/', libname='netcdf' version='4.7.4 of Mar 27 2020 09:44:27 $').
+2022-11-29T14:48:20.549-0800 [     33626][        ] INFO  serverStartup: NetcdfLoader: set log level: old=0 new=0
+2022-11-29T14:48:20.549-0800 [     33626][        ] INFO  serverStartup: Nc4Iosp: set log level: old=0 new=0
+2022-11-29T14:48:20.560-0800 [     33637][        ] INFO  serverStartup: TdsInit: Aggregation.setTypicalDatasetMode= penultimate
+2022-11-29T14:48:20.743-0800 [     33820][        ] INFO  serverStartup: TdsInit: CdmCache= C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\cdm scour = 3600 maxSize = 1000000000
+2022-11-29T14:48:20.757-0800 [     33834][        ] INFO  serverStartup: TdsInit: AggregationCache= C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\agg scour = 86400 maxAgeSecs = 7776000
+2022-11-29T14:48:20.760-0800 [     33837][        ] INFO  serverStartup: TdsInit: GribIndex=DiskCache2{cachePathPolicy=NestedDirectory, alwaysUseCache=false, cachePathPolicyParam='null', root='C:/Users/hajohns/dev/repos/tds/tds/src/test/content/thredds/cache/grib/', scourEveryMinutes=0, persistMinutes=129600, fail=false}
+2022-11-29T14:48:20.778-0800 [     33855][        ] INFO  serverStartup: thredds.server.ncss.controller.NcssDiskCacheNcss.Cache= C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds\cache\ncss scour = 900 maxAgeSecs = 1800
+2022-11-29T14:48:21.596-0800 [     34673][        ] INFO  serverStartup: TdsInit: GridDatasetInv cache= C:\Users\hajohns\dev\repos\tds\tds\src\test\content\thredds/cache/collection/
+2022-11-29T14:48:21.607-0800 [     34684][        ] INFO  serverStartup: TdsInit: RandomAccessFile.initPartitionCache= [400,500] scour = 660
+2022-11-29T14:48:21.611-0800 [     34688][        ] INFO  serverStartup: TdsInit: NetcdfDatasets.initNetcdfFileCache= [50,100] scour = 300
+2022-11-29T14:48:21.622-0800 [     34699][        ] INFO  serverStartup: TdsInit: NetcdfDataset.initNetcdfFileCache= [50,100] scour = 300
+2022-11-29T14:48:21.650-0800 [     34727][        ] INFO  serverStartup: TdsInit: GribCdmIndex.initDefaultCollectionCache= [100,150] scour = 780
+2022-11-29T14:48:22.510-0800 [     35587][        ] INFO  serverStartup: TdsInit: latest stable version = 5.4
+2022-11-29T14:48:22.510-0800 [     35587][        ] INFO  serverStartup: TdsInit: latest maintenance version = 4.6.21
+2022-11-29T14:48:22.511-0800 [     35588][        ] WARN  serverStartup: Web Start has been deprecated for >Java 9 and is slated for removal - see http://www.oracle.com/technetwork/java/eol-135779.html)
+2022-11-29T14:48:23.063-0800 [     36140][        ] INFO  serverStartup: TdsInit complete
+2022-11-29T14:48:23.064-0800 [     36141][        ] INFO  serverStartup: thredds.server.opendap.OpendapServlet initialization start
+2022-11-29T14:48:23.064-0800 [     36141][        ] INFO  serverStartup: thredds.server.opendap.OpendapServlet version= opendap/3.7 ascLimit = 50 binLimit = 500
+2022-11-29T14:48:23.064-0800 [     36141][        ] INFO  serverStartup: thredds.server.opendap.OpendapServlet initialization done
+2022-11-29T14:48:23.095-0800 [     36172][        ] INFO  serverStartup: WCS:allow= true
+2022-11-29T14:48:23.105-0800 [     36182][        ] INFO  serverStartup: WCS service - init done - 
+2022-11-29T14:48:23.105-0800 [     36182][        ] INFO  serverStartup: Metadata ISO - initialization start
+2022-11-29T14:48:23.105-0800 [     36182][        ] INFO  serverStartup: NCISO.isoAllow = true
+2022-11-29T14:48:23.107-0800 [     36184][        ] INFO  serverStartup: Metadata UDDC - initialization start
+2022-11-29T14:48:23.107-0800 [     36184][        ] INFO  serverStartup: NCISO.uddcAllow = true
+2022-11-29T14:48:23.107-0800 [     36184][        ] INFO  serverStartup: Metadata NCML - initialization start
+2022-11-29T14:48:23.107-0800 [     36184][        ] INFO  serverStartup: NCISO.ncmlAllow = true
+2022-11-29T14:48:23.115-0800 [     36192][        ] INFO  org.springframework.web.context.ContextLoader: Root WebApplicationContext initialized in 9999 ms
+2022-11-29T14:48:23.352-0800 [     36429][        ] INFO  org.springframework.web.servlet.DispatcherServlet: Initializing Servlet 'spring'
+2022-11-29T14:48:23.684-0800 [     36761][        ] INFO  org.springframework.web.servlet.DispatcherServlet: Completed initialization in 332 ms

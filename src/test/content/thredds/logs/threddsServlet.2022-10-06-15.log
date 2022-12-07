@@ -1,0 +1,5 @@
+2022-10-06T15:08:16.552 -0700 [     61865][        ] INFO  - net.openhft.chronicle.core.Jvm - Chronicle core loaded from file:/C:/Users/hajohns/dev/repos/tds/tds/build/serverBaseDir_tomcat85/webapps/thredds/WEB-INF/lib/chronicle-core-2.21ea28.jar
+2022-10-06T15:08:17.053 -0700 [     62366][        ] WARN  - net.openhft.chronicle.map.FileLockUtil - File locking is disabled or not supported on this platform (Windows 10). Make sure you are not running ChronicleMapBuilder::*recover* methods when other processes or threads have the mapped file open!
+2022-10-06T15:10:24.901 -0700 [    190214][       1] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/catalog/catalog.html?dataset=testDataset2 HTTP/1.1"
+2022-10-06T15:10:25.928 -0700 [    191241][       1] INFO  - threddsServlet - Request Completed - 200 - -1 - 1024
+2022-10-06T15:11:22.383 -0700 [    247696][        ] INFO  - uk.ac.rdg.resc.edal.wms.WmsContextListener - Deregistering JDBC driver org.h2.Driver@44fb997c

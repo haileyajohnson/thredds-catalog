@@ -1,0 +1,9 @@
+2022-10-11T14:56:16.371 -0700 [    137104][        ] INFO  - net.openhft.chronicle.core.Jvm - Chronicle core loaded from file:/C:/Users/hajohns/dev/repos/tds/tds/build/serverBaseDir_tomcat85/webapps/thredds/WEB-INF/lib/chronicle-core-2.21ea28.jar
+2022-10-11T14:56:16.855 -0700 [    137588][        ] WARN  - net.openhft.chronicle.map.FileLockUtil - File locking is disabled or not supported on this platform (Windows 10). Make sure you are not running ChronicleMapBuilder::*recover* methods when other processes or threads have the mapped file open!
+2022-10-11T14:57:12.801 -0700 [    193534][       1] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/ HTTP/1.1"
+2022-10-11T14:57:12.879 -0700 [    193612][       1] INFO  - threddsServlet - Request Completed - 302 - -1 - 77
+2022-10-11T14:57:12.889 -0700 [    193622][       2] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/catalog/catalog.html HTTP/1.1"
+2022-10-11T14:57:14.127 -0700 [    194860][       2] INFO  - threddsServlet - Request Completed - 200 - -1 - 1238
+2022-10-11T14:57:19.216 -0700 [    199949][       3] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/catalog/catalog.html?dataset=testDataset HTTP/1.1"
+2022-10-11T14:57:19.324 -0700 [    200057][       3] INFO  - threddsServlet - Request Completed - 200 - -1 - 108
+2022-10-11T14:59:17.531 -0700 [    318264][       4] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/dodsC/special/my/testData.foo.html HTTP/1.1"

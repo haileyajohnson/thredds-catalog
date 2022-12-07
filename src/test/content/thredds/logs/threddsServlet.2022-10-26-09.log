@@ -1,0 +1,2 @@
+2022-10-26T09:53:34.841 -0700 [     96086][        ] INFO  - net.openhft.chronicle.core.Jvm - Chronicle core loaded from file:/C:/Users/hajohns/dev/repos/tds/tds/build/serverBaseDir_tomcat85/webapps/thredds/WEB-INF/lib/chronicle-core-2.21ea28.jar
+2022-10-26T09:53:35.322 -0700 [     96567][        ] WARN  - net.openhft.chronicle.map.FileLockUtil - File locking is disabled or not supported on this platform (Windows 10). Make sure you are not running ChronicleMapBuilder::*recover* methods when other processes or threads have the mapped file open!

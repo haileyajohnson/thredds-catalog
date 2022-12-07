@@ -1,0 +1,12 @@
+2022-10-25T15:39:06.728 -0700 [     28505][        ] INFO  - net.openhft.chronicle.core.Jvm - Chronicle core loaded from file:/C:/Users/hajohns/dev/repos/tds/tds/build/serverBaseDir_tomcat85/webapps/thredds/WEB-INF/lib/chronicle-core-2.21ea28.jar
+2022-10-25T15:39:07.396 -0700 [     29173][        ] WARN  - net.openhft.chronicle.map.FileLockUtil - File locking is disabled or not supported on this platform (Windows 10). Make sure you are not running ChronicleMapBuilder::*recover* methods when other processes or threads have the mapped file open!
+2022-10-25T15:39:14.421 -0700 [     36198][       1] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog/catalogs5/testServices.html?dataset=TESTsst HTTP/1.1"
+2022-10-25T15:39:15.741 -0700 [     37518][       1] INFO  - threddsServlet - Request Completed - 200 - -1 - 1320
+2022-10-25T15:39:17.142 -0700 [     38919][        ] INFO  - uk.ac.rdg.resc.edal.wms.WmsContextListener - Deregistering JDBC driver org.h2.Driver@17168eea
+2022-10-25T15:46:27.281 -0700 [     27021][        ] INFO  - net.openhft.chronicle.core.Jvm - Chronicle core loaded from file:/C:/Users/hajohns/dev/repos/tds/tds/build/serverBaseDir_tomcat85/webapps/thredds/WEB-INF/lib/chronicle-core-2.21ea28.jar
+2022-10-25T15:46:27.749 -0700 [     27489][        ] WARN  - net.openhft.chronicle.map.FileLockUtil - File locking is disabled or not supported on this platform (Windows 10). Make sure you are not running ChronicleMapBuilder::*recover* methods when other processes or threads have the mapped file open!
+2022-10-25T15:49:00.142 -0700 [    179882][       1] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/ HTTP/1.1"
+2022-10-25T15:49:00.210 -0700 [    179950][       1] INFO  - threddsServlet - Request Completed - 302 - -1 - 66
+2022-10-25T15:49:00.219 -0700 [    179959][       2] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/catalog/catalog.html HTTP/1.1"
+2022-10-25T15:49:01.141 -0700 [    180881][       2] INFO  - threddsServlet - Request Completed - 200 - -1 - 922
+2022-10-25T15:57:04.749 -0700 [    664489][        ] INFO  - uk.ac.rdg.resc.edal.wms.WmsContextListener - Deregistering JDBC driver org.h2.Driver@62372f6d

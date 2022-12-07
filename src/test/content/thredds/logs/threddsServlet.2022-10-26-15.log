@@ -1,0 +1,109 @@
+2022-10-26T15:02:06.818 -0700 [     68881][        ] INFO  - net.openhft.chronicle.core.Jvm - Chronicle core loaded from file:/C:/Users/hajohns/dev/repos/tds/tds/build/serverBaseDir_tomcat85/webapps/thredds/WEB-INF/lib/chronicle-core-2.21ea28.jar
+2022-10-26T15:02:07.352 -0700 [     69415][        ] WARN  - net.openhft.chronicle.map.FileLockUtil - File locking is disabled or not supported on this platform (Windows 10). Make sure you are not running ChronicleMapBuilder::*recover* methods when other processes or threads have the mapped file open!
+2022-10-26T15:03:35.924 -0700 [    157987][       1] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/ HTTP/1.1"
+2022-10-26T15:03:35.997 -0700 [    158060][       1] INFO  - threddsServlet - Request Completed - 302 - -1 - 71
+2022-10-26T15:03:36.005 -0700 [    158068][       2] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/catalog/catalog.html HTTP/1.1"
+2022-10-26T15:03:37.035 -0700 [    159098][       2] INFO  - threddsServlet - Request Completed - 200 - -1 - 1030
+2022-10-26T15:03:51.308 -0700 [    173371][       3] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/remoteCatalogService?catalog=https://thredds.ucar.edu/thredds/catalog/grib/NCEP/GFS/Global_0p25deg_ana/GFS_Global_0p25deg_ana_20221026_1200.grib2/catalog.xml?dataset=grib/NCEP/GFS/Global_0p25deg_ana/GFS_Global_0p25deg_ana_20221026_1200.grib2 HTTP/1.1"
+2022-10-26T15:03:51.695 -0700 [    173758][       3] INFO  - threddsServlet - Request Completed - 200 - -1 - 388
+2022-10-26T15:03:53.172 -0700 [    175235][       4] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/remoteCatalogService?command=SUBSET&catalog=https://thredds.ucar.edu/thredds/catalog/grib/NCEP/GFS/Global_0p25deg_ana/GFS_Global_0p25deg_ana_20221026_1200.grib2/catalog.xml?dataset=grib/NCEP/GFS/Global_0p25deg_ana/GFS_Global_0p25deg_ana_20221026_1200.grib2&dataset=grib/NCEP/GFS/Global_0p25deg_ana/GFS_Global_0p25deg_ana_20221026_1200.grib2 HTTP/1.1"
+2022-10-26T15:03:53.366 -0700 [    175429][       4] INFO  - threddsServlet - Request Completed - 200 - -1 - 194
+2022-10-26T15:04:59.886 -0700 [    241949][       5] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/catalog/enhancedCatalog.html HTTP/1.1"
+2022-10-26T15:04:59.929 -0700 [    241992][       5] INFO  - threddsServlet - Request Completed - 200 - -1 - 43
+2022-10-26T15:05:00.977 -0700 [    243040][       6] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/catalog/testEnhanced/catalog.html HTTP/1.1"
+2022-10-26T15:05:01.005 -0700 [    243068][       6] INFO  - threddsServlet - Request Completed - 200 - -1 - 27
+2022-10-26T15:05:01.834 -0700 [    243897][       7] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/catalog/testEnhanced/catalog.html?dataset=testEnhanced/2004050412_eta_211.nc HTTP/1.1"
+2022-10-26T15:05:01.893 -0700 [    243956][       7] INFO  - threddsServlet - Request Completed - 200 - -1 - 59
+2022-10-26T15:05:10.980 -0700 [    253043][       8] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/catalog/catalog.html?dataset=testGAP HTTP/1.1"
+2022-10-26T15:05:11.011 -0700 [    253074][       8] INFO  - threddsServlet - Request Completed - 200 - -1 - 31
+2022-10-26T15:05:12.887 -0700 [    254950][       9] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/iso/localContent/testGridAsPoint.nc HTTP/1.1"
+2022-10-26T15:05:19.683 -0700 [    261746][       9] ERROR - thredds.server.metadata.controller.AbstractMetadataController - IOException while trying to get GridDataset:
+iso/localContent/testGridAsPoint.nc
+2022-10-26T15:05:22.023 -0700 [    264086][       9] INFO  - threddsServlet - Request Completed - 200 - -1 - 9136
+2022-10-26T15:05:30.305 -0700 [    272368][      10] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/ncml/localContent/testGridAsPoint.nc HTTP/1.1"
+2022-10-26T15:05:30.316 -0700 [    272379][      10] ERROR - thredds.server.metadata.controller.AbstractMetadataController - IOException while trying to get GridDataset:
+ncml/localContent/testGridAsPoint.nc
+2022-10-26T15:05:30.321 -0700 [    272384][      10] INFO  - threddsServlet - Request Completed - 200 - -1 - 16
+2022-10-26T15:05:33.596 -0700 [    275659][      11] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/uddc/localContent/testGridAsPoint.nc HTTP/1.1"
+2022-10-26T15:05:33.606 -0700 [    275669][      11] ERROR - thredds.server.metadata.controller.AbstractMetadataController - IOException while trying to get GridDataset:
+uddc/localContent/testGridAsPoint.nc
+2022-10-26T15:05:33.781 -0700 [    275844][      11] INFO  - threddsServlet - Request Completed - 200 - -1 - 184
+2022-10-26T15:06:47.894 -0700 [    349957][      12] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/remoteCatalogService?catalog=https://thredds.ucar.edu/thredds/catalog/grib/NCEP/GFS/Global_0p25deg_ana/GFS_Global_0p25deg_ana_20221026_1200.grib2/catalog.xml?dataset=grib/NCEP/GFS/Global_0p25deg_ana/GFS_Global_0p25deg_ana_20221026_1200.grib2 HTTP/1.1"
+2022-10-26T15:06:48.159 -0700 [    350222][      12] INFO  - threddsServlet - Request Completed - 200 - -1 - 265
+2022-10-26T15:06:49.495 -0700 [    351558][      13] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/remoteCatalogService?command=SUBSET&catalog=https://thredds.ucar.edu/thredds/catalog/grib/NCEP/GFS/Global_0p25deg_ana/GFS_Global_0p25deg_ana_20221026_1200.grib2/catalog.xml?dataset=grib/NCEP/GFS/Global_0p25deg_ana/GFS_Global_0p25deg_ana_20221026_1200.grib2&dataset=grib/NCEP/GFS/Global_0p25deg_ana/GFS_Global_0p25deg_ana_20221026_1200.grib2 HTTP/1.1"
+2022-10-26T15:06:49.601 -0700 [    351664][      13] INFO  - threddsServlet - Request Completed - 200 - -1 - 106
+2022-10-26T15:07:35.248 -0700 [    397311][      14] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/remoteCatalogService?https://thredds.ucar.edu/thredds/iso/grib/NCEP/GFS/Global_0p25deg_ana/GFS_Global_0p25deg_ana_20221026_1200.grib2/catalog.xml?dataset=grib/NCEP/GFS/Global_0p25deg_ana/GFS_Global_0p25deg_ana_20221026_1200.grib2 HTTP/1.1"
+2022-10-26T15:07:35.254 -0700 [    397317][      14] ERROR - thredds.server.TdsErrorHandling - uncaught exception
+java.lang.NullPointerException: null
+	at java.net.URI$Parser.parse(URI.java:3104) ~[?:?]
+	at java.net.URI.<init>(URI.java:600) ~[?:?]
+	at thredds.server.catalogservice.RemoteCatalogRequestValidator.validate(RemoteCatalogRequestValidator.java:22) ~[classes/:5.5-SNAPSHOT]
+	at org.springframework.validation.DataBinder.validate(DataBinder.java:933) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.validateIfApplicable(ModelAttributeMethodProcessor.java:382) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:173) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) [spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) [spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.3.20.jar:5.3.20]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) [tomcat-embed-core-8.5.75.jar:8.5.75]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.20.jar:5.3.20]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) [tomcat-embed-core-8.5.75.jar:8.5.75]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.75.jar:8.5.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.75.jar:8.5.75]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.75.jar:8.5.75]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.75.jar:8.5.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.75.jar:8.5.75]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327) [spring-security-web-5.6.5.jar:5.6.5]
+	at thredds.servlet.filter.RequestBracketingLogMessageFilter.doFilter(RequestBracketingLogMessageFilter.java:50) [classes/:5.5-SNAPSHOT]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.5.jar:5.6.5]
+	at thredds.servlet.filter.RequestQueryFilter.doFilter(RequestQueryFilter.java:90) [classes/:5.5-SNAPSHOT]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.5.jar:5.6.5]
+	at thredds.servlet.filter.HttpHeadFilter.doFilter(HttpHeadFilter.java:47) [classes/:5.5-SNAPSHOT]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.5.jar:5.6.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) [spring-security-web-5.6.5.jar:5.6.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) [spring-security-web-5.6.5.jar:5.6.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) [spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) [spring-web-5.3.20.jar:5.3.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.75.jar:8.5.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.75.jar:8.5.75]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.17.1.jar:2.17.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.75.jar:8.5.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.75.jar:8.5.75]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196) [tomcat-embed-core-8.5.75.jar:8.5.75]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-8.5.75.jar:8.5.75]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-8.5.75.jar:8.5.75]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [tomcat-embed-core-8.5.75.jar:8.5.75]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.75.jar:8.5.75]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-8.5.75.jar:8.5.75]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:366) [tomcat-embed-core-8.5.75.jar:8.5.75]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639) [tomcat-embed-core-8.5.75.jar:8.5.75]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-8.5.75.jar:8.5.75]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:847) [tomcat-embed-core-8.5.75.jar:8.5.75]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1680) [tomcat-embed-core-8.5.75.jar:8.5.75]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.75.jar:8.5.75]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-8.5.75.jar:8.5.75]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-8.5.75.jar:8.5.75]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.75.jar:8.5.75]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2022-10-26T15:07:35.304 -0700 [    397367][      14] INFO  - threddsServlet - Request Completed - 500 - -1 - 56
+2022-10-26T15:12:49.722 -0700 [    711785][      15] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/ HTTP/1.1"
+2022-10-26T15:12:49.724 -0700 [    711787][      15] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2022-10-26T15:12:49.727 -0700 [    711790][      16] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/catalog/catalog.html HTTP/1.1"
+2022-10-26T15:12:49.752 -0700 [    711815][      16] INFO  - threddsServlet - Request Completed - 200 - -1 - 25
+2022-10-26T15:12:52.626 -0700 [    714689][      17] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/remoteCatalogService?catalog=https://thredds.ucar.edu/thredds/catalog/grib/NCEP/GFS/Global_0p25deg_ana/GFS_Global_0p25deg_ana_20221026_1200.grib2/catalog.xml?dataset=grib/NCEP/GFS/Global_0p25deg_ana/GFS_Global_0p25deg_ana_20221026_1200.grib2 HTTP/1.1"
+2022-10-26T15:12:52.881 -0700 [    714944][      17] INFO  - threddsServlet - Request Completed - 200 - -1 - 255
+2022-10-26T15:12:53.842 -0700 [    715905][      18] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/remoteCatalogService?command=SUBSET&catalog=https://thredds.ucar.edu/thredds/catalog/grib/NCEP/GFS/Global_0p25deg_ana/GFS_Global_0p25deg_ana_20221026_1200.grib2/catalog.xml?dataset=grib/NCEP/GFS/Global_0p25deg_ana/GFS_Global_0p25deg_ana_20221026_1200.grib2&dataset=grib/NCEP/GFS/Global_0p25deg_ana/GFS_Global_0p25deg_ana_20221026_1200.grib2 HTTP/1.1"
+2022-10-26T15:12:53.944 -0700 [    716007][      18] INFO  - threddsServlet - Request Completed - 200 - -1 - 102
+2022-10-26T15:13:11.557 -0700 [    733620][      19] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/remoteCatalogService?catalog=https://thredds.ucar.edu/thredds/catalog/grib/NCEP/GFS/Global_0p25deg_ana/GFS_Global_0p25deg_ana_20221026_1200.grib2/catalog.xml?dataset=grib/NCEP/GFS/Global_0p25deg_ana/GFS_Global_0p25deg_ana_20221026_1200.grib2&dataset=grib/NCEP/GFS/Global_0p25deg_ana/GFS_Global_0p25deg_ana_20221026_1200.grib2 HTTP/1.1"
+2022-10-26T15:13:11.817 -0700 [    733880][      19] INFO  - threddsServlet - Request Completed - 200 - -1 - 260
+2022-10-26T15:25:33.597 -0700 [   1475660][      20] INFO  - threddsServlet - Remote host: 0:0:0:0:0:0:0:1 - Request: "GET /thredds/remoteCatalogService?catalog=https://thredds.ucar.edu/thredds/catalog/grib/NCEP/GFS/Global_0p25deg_ana/GFS_Global_0p25deg_ana_20221026_1200.grib2/catalog.xml?dataset=grib/NCEP/GFS/Global_0p25deg_ana/GFS_Global_0p25deg_ana_20221026_1200.grib2&dataset=grib/NCEP/GFS/Global_0p25deg_ana/GFS_Global_0p25deg_ana_20221026_1200.grib2 HTTP/1.1"
+2022-10-26T15:26:49.134 -0700 [   1551197][      20] INFO  - threddsServlet - Request Completed - 200 - -1 - 75536
+2022-10-26T15:32:32.083 -0700 [   1894146][        ] INFO  - uk.ac.rdg.resc.edal.wms.WmsContextListener - Deregistering JDBC driver org.h2.Driver@107bd2bb
+2022-10-26T15:37:03.650 -0700 [   2165713][        ] INFO  - uk.ac.rdg.resc.edal.wms.WmsContextListener - Deregistering JDBC driver org.h2.Driver@16fe8c83
